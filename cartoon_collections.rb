@@ -17,6 +17,7 @@ def long_planeteer_calls(array)
       state << false
     elsif (name.length > 4)
       state << true
+    end
   end
   if state.include?(true)
     true
