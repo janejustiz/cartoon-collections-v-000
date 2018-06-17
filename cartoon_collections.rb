@@ -33,9 +33,10 @@ def find_the_cheese(array)
       p = 0
       while p < cheese_types.size
         if array[i].include?(cheese_types[p])
-        return array[i]
-        p+=1
-      end
-      i+=1
+          return array[i]
+        end
+      p+=1
     end
+    i+=1
+  end
 end
